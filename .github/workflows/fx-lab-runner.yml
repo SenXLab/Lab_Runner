@@ -390,7 +390,7 @@ jobs:
           <b>📅 Date:</b> {start_date}
           <b>🕔 Build Duration:</b> {build_time}
           <b>📱 Device Codename:</b> munch
-          <b>📑 Branch:</b> fx-base
+          <b>📑 Branch:</b> base
           <b>🔧 Lto:</b> {lto_config}
           <b>⚙️ Toolchain:</b> {clang_toolchain}
           <b>📂 Build Type:</b> {build_type}"""
