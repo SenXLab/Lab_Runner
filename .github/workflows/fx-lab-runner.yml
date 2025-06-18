@@ -7,7 +7,7 @@ on:
     inputs:
       KERNEL_TREE:
         description: 'Kernel Tree'
-        default: 'https://github.com/SenX-Play-Ground/fusionX_kernel_sm8250'
+        default: 'https://github.com/SenXLab/fusionX_lab_sm8250'
         required: true
       VERSION:
         description: 'Zip Version'
@@ -85,8 +85,8 @@ jobs:
       - name: Checkout Kernel
         uses: actions/checkout@v4
         with:
-          repository: SenX-Play-Ground/fusionX_kernel_sm8250
-          ref: fx-base
+          repository: SenXLab/fusionX_lab_sm8250
+          ref: base
           path: kernel_tree
           fetch-depth: 1
 
